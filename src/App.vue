@@ -2,7 +2,6 @@
   <div id="app">
     <nav class="navbar has-background-info">
       <div class="navbar-brand">
-        <a class="navbar-item has-text-white" href="https://i-doctor.sakura.ne.jp/font/?p=40818"> Vue OpenStreetMap Distance </a>
       </div>
     </nav>
     <div id="nav">
