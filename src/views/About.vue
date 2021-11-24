@@ -28,7 +28,7 @@
             <button class="delete" aria-label="delete"></button>
           </div>
           <div class="message-body">
-            <p>1分間で歩いた距離：{{d | round}} km</p>
+            <p>1分間で歩いた距離aaa：{{d | round}} km</p>
             <p>合計：{{length | round}} km</p>
           </div>
         </article>
