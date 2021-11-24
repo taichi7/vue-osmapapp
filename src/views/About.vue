@@ -32,6 +32,17 @@
             <p>合計：{{length | round}} km</p>
           </div>
         </article>
+        
+        <article class="message is-dark">
+          <div class="message-header">
+            <p>消費カロリー</p>
+            <button class="delete" aria-label="delete"></button>
+          </div>
+          <div class="message-body">
+            <p>1分間で消費したカロリー：{{d | round}} km</p>
+            <p>合計消費カロリー：{{length | round}} km</p>
+          </div>
+        </article>
       </div>
     </section>
 
