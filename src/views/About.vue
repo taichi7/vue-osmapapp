@@ -39,8 +39,8 @@
             <button class="delete" aria-label="delete"></button>
           </div>
           <div class="message-body">
-            <p>1分間で消費したカロリー：{{d | round}} km</p>
-            <p>合計消費カロリー：{{length | round}} km</p>
+            <p>1分間で消費したカロリー：{{d | round}} kcal</p>
+            <p>合計消費カロリー：{{length | round}} kcal</p>
           </div>
         </article>
       </div>
