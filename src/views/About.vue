@@ -40,7 +40,7 @@
           </div>
           <div class="message-body">
             <p>1分間で消費したカロリー：{{d | round}} kcal</p>
-            <p>合計消費カロリー：{{length | round}} kcal</p>
+            <p>合計消費カロリー：{{length-1 | round}} kcal</p>
           </div>
         </article>
       </div>
