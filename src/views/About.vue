@@ -39,8 +39,7 @@
             <button class="delete" aria-label="delete"></button>
           </div>
           <div class="message-body">
-            <p>1分間で消費したカロリー：{{3*50*0.01665*0.01665*1.05 | round}} kcal</p>
-            <p>合計消費カロリー：{{3*50*0.01665*0.01665*1.05 | round}} kcal</p>
+            <p>合計消費カロリー：{{cal | round}} kcal</p>
           </div>
         </article>
       </div>
@@ -65,6 +64,8 @@ export default {
     
       d: 0,
       length: 0,
+      
+      cal: 0,
     }
   },
   mounted() {
@@ -84,6 +85,7 @@ export default {
           setInterval(function () {
             console.log('hi');
             calcDistance();
+            this.cal = this.cal+3*50*0.01665*1.05;
           }, 5000);
           function calcDistance(){
             navigator.geolocation.getCurrentPosition(
